@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-Sans";
+}
+
+html,body{
+    height: 100%;
+
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    padding: 0 2%;
+    height: 80px;
+    background-color: #212343;
+}
+
+.header img{
+    margin: 25px;
+    margin-left: 90px;
+}
+
+.banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 557px;
+    background-image: url(img/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner > .center{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 40px);
+    float: right;
+    position: relative;
+    top:20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 8px solid #999999;
+    
+}
+
+.form h2{
+    font-weight: normal;
+    color:#000000;
+    font-size: 21px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+.input span, .form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.input input[type=text]{
+    font-size: 15px;
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+}
+
+.input input[type=text]{
+    outline: 0;
+}
+
+.input-botao{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363a6d;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.list{
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    background-color: rgba(33,35,67,0.7);
+}
+
+.list ul{
+    list-style-position: inside;
+}
+
+.list ul li{
+    margin-top: 20px;
+    color: white;
+}
+
+.conteudo1{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+.conteudo1 h2{
+    width: 100%;
+    font-weight: normal;
+}
+
+.conteudo1 p{
+    max-width: 768px;
+    width: 100%;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.arrow{
+    position:relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/arrow.png);
+    background-size: 100% 100%;
+}
+
+.section{
+    padding: 50px 2%;
+}
+
+.section h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px
+}
+
+.container-section{
+    text-align: center;
+}
+
+.container-single img{
+    width: 40px;
+}
+
+.container-single p{
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+}
+
+.footer{
+    clear: both;
+    border-top: 4px solid #888888;
+    padding: 30px 0;
+    text-align: center;
+    color:#000000;
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .header img{
+        margin: 0;
+
+        .list{
+            margin-top: 30px;
+            padding: 30px 0;
+            float: none;
+            width: 40%;
+            display: inline-block;
+            max-width: 500px;
+            height: auto;
+    }
+
+    }
+
+    .banner{
+            width: 100%;
+            padding: 40 2%;
+            height: auto;
+            text-align: center;
+    }
+
+    .form{
+        padding: 10px;
+        max-width: 380px;
+        width: 60%;
+        height: calc(100% + 40px);
+        float: right;
+        top:0;
+    }
+    
+    .input input[type=text]{
+        width: 100%;
+        height: 55px;
+    
+    }
+    
+    .form input[type=submit]{
+        max-width: 280px;
+        height: 58px;
+        width: 100%;
+    }
+
+    .conteudo1 h2{
+        width: 100%;
+
+}
+
+@media screen and (max-width: 768px){
+    .list{
+        margin-top: 20px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    }
+
+    .form{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container-single{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
+}
